@@ -12,7 +12,7 @@ pipeline {
                  $class: 'GitSCM',
                  branches: [[name: 'master']],
                  userRemoteConfigs: [[
-                    url: 'git@github.com:gomesar9/integration.git',
+                    url: 'https://github.com/gomesar9/integration.git',
                     credentialsId: '',
                  ]]
                 ])
